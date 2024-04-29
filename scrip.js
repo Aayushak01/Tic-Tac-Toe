@@ -66,7 +66,7 @@ function checkGameOver(){
     });
 
     if(answer !== ""){
-        gameInfo.innerText =` Winner Player - ${answer}`;
+        gameInfo.innerText =` WINNER PLAYER - ${answer}`;
         newGameBtn.classList.add("active");
         return;
     }
